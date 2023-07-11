@@ -1,0 +1,44 @@
+ 
+body{
+    font-family: 'Kanit', sans-serif;
+}
+
+/* nav related style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.text-primary{
+    color: orange;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav  li{
+    list-style: none;
+    margin-right:50px;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(6, 77, 77);
+}
+
+.btn-primary{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    padding: 15px ;
+
+
+}
